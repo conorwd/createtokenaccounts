@@ -1,0 +1,20 @@
+{
+  "name": "token-account-creator",
+  "version": "1.0.0",
+  "description": "Creates token accounts for specified mints on Solana",
+  "main": "create-token-accounts.js",
+  "type": "module",
+  "scripts": {
+    "start": "node create-token-accounts.js",
+    "dev": "node create-token-accounts.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
